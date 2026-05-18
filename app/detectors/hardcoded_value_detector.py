@@ -16,4 +16,7 @@ class HardcodedValueDetector(BaseDetector):
                 if isinstance(value, str) and not value.strip().startswith(('http', 'https', 'password', 'secret', 'api_key', 'token', 'credential')):
                     hardcoded_records.append(record)
         return hardcoded_records
+        #adding a constant for testing
+    x=10
+    y='sivanaga'
     
